@@ -23,7 +23,7 @@ A solução foi construída utilizando boas práticas de **DDD**, **CQRS** e **C
 ---
 
 ## Project Structure
-
+```
 DeveloperStore.Sales/
 ├── DeveloperStore.Sales.sln
 ├── README.md
@@ -60,7 +60,6 @@ DeveloperStore.Sales/
 └── Sales.Api/
 ├── Program.cs # Minimal API + endpoints
 └── Sales.Api.csproj
-
 ```
 
 **Camadas**
