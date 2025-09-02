@@ -61,6 +61,8 @@ DeveloperStore.Sales/
 ├── Program.cs # Minimal API + endpoints
 └── Sales.Api.csproj
 
+```
+
 **Camadas**
 - **Domain**: entidades e regras de negócio (sem dependências externas).
 - **Application**: DTOs, CQRS (MediatR), validações e mapeamentos.
@@ -74,5 +76,14 @@ DeveloperStore.Sales/
 
 ### Passos
 1. Restaurar pacotes:
-   ```bash
+```bash
    dotnet restore
+```
+2. Compilar a solução:
+```bash
+   dotnet build
+```
+3. Executar a API:   
+ ```bash
+  dotnet run --project src/Sales.Api/Sales.Api.csproj
+ ```
